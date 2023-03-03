@@ -1,0 +1,25 @@
+.Auth {
+  width: 70vw;
+  padding: 5px 5px 5px 5px;
+  border: solid 1px black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Auth > div {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.Auth > .btn-wrapper {
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.Auth > .btn-wrapper > button {
+  width: 45%;
+}
